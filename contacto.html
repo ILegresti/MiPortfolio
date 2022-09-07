@@ -12,7 +12,7 @@
 
 
 <body>
-  <nav class="navbar navbar-expand-lg nav" id="botonera">
+  <nav class="navbar navbar-expand-md nav" id="botonera">
     <div class="container">
       <a class="navbar-brand" href= "index.html">
         <img class="maletin-size--sm" src="imagenes/maletin-blanco.png" alt="Logo de maletin blanco">
@@ -53,22 +53,31 @@
         <h1 class="h1-center">Contáctame</h1>
     </div>
 
-    <main class=" form form-flex">
+    <main class=" form-flex form">
         <section>
             <form action="">
-                <label for="nombre">Nombre:</label>
-                <input class="input-size" type="text" id="nombre">
-                <label for="Direccion de mail">Dirección de mail:</label>
-                <input class="input-size" type="text" id="Direccion de mail">
-                <label for="mensaje">Mensaje:</label>
-                <input class="input-size-mensaje" type="text" id="mensaje">
-
-            </form>
+                <div class="m-3">
+                   <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                </div>
+           
+                 <div class="m-3">
+                   <label for="exampleFormControlInput1" class="form-label">Dirección de mail</label>
+                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                 </div>
+           
+                 <div class="m-3">
+                   <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                   <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
+                 </div>
+               </form>
         </section>
 
         
     
     </main>
+
+
     <footer class="center">
         <div>
             <h3>Seguime en mis redes!!</h3>
