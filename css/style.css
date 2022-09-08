@@ -302,6 +302,27 @@ body main section form{
     height: auto;
 }
 
+
+
+
+
+.form-control{
+    padding: 1rem;
+    font-size: 2rem;
+}
+textarea{
+    resize: none;
+}
+
+
+
+body main section form{
+    width: 60rem;
+}
+    
+
+
+
  /* RESPONSIVE */
 
 @media (max-width: 879px){
@@ -315,7 +336,7 @@ body main section form{
     }
 
     body main section form{
-        width: 100%;
+        width: 60rem;
         background-color: rgb(1,29,70);
         color: aliceblue;
         padding: 20px;
@@ -366,6 +387,9 @@ body main section form{
     }
     .navbar-nav{
         text-align: center;
+     }
+     body main section form{
+        width: 40rem;
      }
 
 
