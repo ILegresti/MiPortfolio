@@ -175,33 +175,10 @@ body main section form{
     border-radius: 3px;
 }
 
-.input-label{
-    box-sizing: border-box;
-}
-
-.input-size{
-    width: 100%;
-    height: 3rem;
-    margin-bottom: 20px;
-}
-
-  .input-size-mensaje{
-     width: 100%;
-     height: 7rem;
-     margin-bottom: 20px;
- }
-
 .form-flex{
     text-align: center;
     display: flex;
     justify-content: center;
-}
-
-
-
-.form-input{
-    width: 100%;
-    height: 70%;
 }
 
 
@@ -264,18 +241,9 @@ body main section form{
     padding: 20px;
  }
 
+/* proyectos*/
 
- .flex-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
-
-
- 
-
-
+/* descripcion */
  .descripcion_flex{
     display: flex;
     flex-direction: row;
@@ -289,7 +257,7 @@ body main section form{
 
 
 
-
+/* descargar cv */
 .cv-flex{
     display: flex;
     flex-direction: row;
@@ -302,9 +270,9 @@ body main section form{
     height: auto;
 }
 
+/* descargar cv */
 
-
-
+/* formulario*/
 
 .form-control{
     padding: 1rem;
@@ -321,7 +289,7 @@ body main section form{
 }
     
 
-
+/* formulario*/
 
  /* RESPONSIVE */
 

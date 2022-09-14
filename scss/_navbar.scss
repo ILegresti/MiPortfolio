@@ -1,0 +1,43 @@
+body{
+    nav{
+        ul{
+            display: flex;
+            justify-content:space-between;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $secondaryColor;
+                    padding: 5px;
+                    font-family: $mainFont;
+                    font-size: 2rem;
+                    margin: 10px;
+                    &:hover{
+                        border-bottom: 2px solid $secondaryColor
+
+                    }
+
+                }
+            }
+
+        }
+    }
+    display: flex;
+    justify-content:space-between;
+}
+
+#botonera div ul li a{
+    text-decoration: none;  
+    color: $secondaryColor;
+    padding: 5px;
+    font-size: 1.8rem;
+
+}
+
+.maletin-size--sm{
+    width: 10rem;
+    height: 10rem;
+}
+
+.center{
+    text-align: center;
+}
