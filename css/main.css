@@ -58,7 +58,7 @@ body nav ul li a:hover {
   height: auto;
 }
 
-.descripcion_flex {
+.descripcion_flex, .cv-flex {
   display: flex;
   flex-direction: row;
 }
@@ -90,14 +90,12 @@ body main section div button a:hover {
 }
 
 .boton-cv {
-  font-size: 1.5rem;
   text-align: center;
+  font-size: 1.5rem;
   padding: 25px;
 }
 
 .cv-flex {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   padding: 20px;
 }
@@ -254,7 +252,7 @@ body footer p {
   }
 }
 @media (max-width: 730px) {
-  .descripcion_flex {
+  .descripcion_flex, .cv-flex {
     flex-direction: column;
   }
   .descripcion_img {
@@ -280,7 +278,7 @@ body footer p {
   }
 }
 @media (max-width: 575px) {
-  .descripcion_flex {
+  .descripcion_flex, .cv-flex {
     flex-direction: column;
   }
   .descripcion_img {
@@ -314,7 +312,7 @@ body footer p {
     width: 80%;
     height: auto;
   }
-  .descripcion_flex {
+  .descripcion_flex, .cv-flex {
     flex-direction: column;
   }
   .h1-center {

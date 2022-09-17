@@ -12,3 +12,10 @@ html{
 body{
     background-color:$bodyColor;
 }
+
+
+@mixin text-and-btn($text,$fontsize,$padding){
+    text-align: $text;
+    font-size: $fontsize;
+    padding: $padding;
+}
