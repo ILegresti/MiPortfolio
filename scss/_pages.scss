@@ -46,6 +46,26 @@ body{
 
 }
 
+
+
+body{
+    main{
+        section{
+            div{
+                button{
+                    a{
+                        &:hover{
+                            color: $mainColor;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 .text-size--l{
     text-align: center;
     font-size: 3rem;
@@ -66,9 +86,37 @@ body{
 } 
 
 .img-habilidades{
-    width: 15%;
+    width: 10%;
     height: auto;
 }
+
+.padding-btn-cv{
+    padding-bottom: 20px;
+}
+.btn-cv{
+    background-color: $mainColor;
+    text-align: center;
+    width: 40%;
+    color: $secondaryColor;
+    padding: 15px;
+    font-family: $mainFont;
+}
+.btn-lg{
+    font-size: 2rem;
+}
+
+.a-cv{
+    text-decoration: none;
+    color: $secondaryColor;
+
+}
+
+
+
+
+
+
+
 
 // proyectos
 
