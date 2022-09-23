@@ -273,6 +273,15 @@ body footer p {
   .navbar-nav {
     text-align: center;
   }
+  .cv-flex {
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+  }
   body main section form {
     width: 40rem;
   }
