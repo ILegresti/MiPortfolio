@@ -282,6 +282,11 @@ body footer p {
     height: auto;
     gap: 2rem;
   }
+  .img-habilidades {
+    width: 25%;
+    height: auto;
+    padding-bottom: 15px;
+  }
   body main section form {
     width: 40rem;
   }
